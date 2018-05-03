@@ -1,0 +1,140 @@
+*{ 
+margin: 0;
+padding: 0;
+ background-color: #f2f2f2;
+}
+
+/*start nav code */
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+    padding: 20px;
+    background-color: powderblue;
+
+}
+
+
+nav a {
+    font-family: 'IM Fell Great Primer SC', serif;
+  border: 3px;
+  display: block;
+  color:#f2f2f2;
+    padding: 14px 16px;
+    font-size: 17px;
+    align-self: center;
+    background-color: powderblue;
+
+}
+
+a:hover { 
+   color: black; }
+   /*ends navigation code */
+
+   h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 0px 0px;
+  font-size: 20px;
+  font-color: black;
+  font-family: 'IM Fell Great Primer SC', serif;
+  align-self: center; }
+
+p {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-color: black;
+  text-align: center;
+  font-family: 'IM Fell Great Primer SC', serif;
+  }
+
+
+
+img {
+  width: 50%;
+  height: 50%;
+   display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: center;
+    padding: 20px;
+}
+/**HoverBox Below*/
+.hvrbox,
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.hvrbox img {
+  max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+}
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%
+  background rgba(0,0,0,0.6)
+  font-family: 'IM Fell Great Primer SC', serif;
+  color: black;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+
+  /*
+    background-image: linear gradient(
+    to right bottom,
+    rgba(126,213,111,0.8),
+    rgba(40,180,133,.0.8),
+    url("Images/StoveTopUX.png"); */
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+
+  /*end hover box */
+}
+}
+  
+}
+}​

@@ -1,0 +1,79 @@
+*{ 
+margin: 0;
+padding: 0;
+ background-color: #f2f2f2;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+    padding: 20px;
+    background-color: powderblue;
+
+}
+
+
+nav a {
+    font-family: 'IM Fell Great Primer SC', serif;
+  border: 3px;
+  display: block;
+  color:#f2f2f2;
+    padding: 14px 16px;
+    font-size: 17px;
+    align-self: center;
+    background-color: powderblue;
+
+}
+
+a:hover { 
+   color: black; }
+
+
+img {
+   width: 30%;
+   height: 20%;
+   display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 20px;
+}
+
+h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  font-color: black;
+  font-family: 'IM Fell Great Primer SC', serif;
+  align-self: center; }
+
+h2 {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-color: black;
+  font-family: 'IM Fell Great Primer SC', serif;
+  align-self: left; }
+
+  h3 {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-color: black;
+  font-family: 'IM Fell Great Primer SC', serif;
+  align-self: left; }
+
+  p {
+    width: 100%;
+  display: flex;
+  justify-content: left;
+  font-color: black;
+  text-align: left;
+  font-family: 'IM Fell Great Primer SC', serif;
+  }
+
+
+}
+
+}
